@@ -195,3 +195,44 @@
 // let soat = Math.floor(soniya / 3600);
 // let sekund = Math.floor(soniya % 3600);
 // console.log(`Kun boshidan ${soniya} sekund o'tgach, ${soat} soat va ${sekund} sekund o'tdi.`);
+
+
+
+
+///// Qo'shimcha misollar//////////
+//1. misol
+// let a = Math.floor(prompt('a sonni kiriting: '));
+// let b = Math.floor(prompt('b sonni kiriting: '));
+// let c = a + b;
+// let d = a* b;
+// console.log("ikkala sonning yig'indisi: " + c);
+// console.log("ikkala sonning ko'paytmasi: " + d);
+
+//2. misol
+// let a = Math.floor(prompt("to'g'ri to'rtburchakning a tomonini kiriting: "));
+// let b = Math.floor(prompt("to'g'ri to'rtburchakning b tomonini kiriting: "));
+// let S =  (a * b);
+// console.log("To'g'ri to'rtburchakning Yuzi:" + S);
+
+//3. misol
+// let a = Math.floor(prompt("kvadratning tomonini kiriting: "));
+// let P = 4 * a;
+// let S = a * a;
+// console.log("Kvadratning peremetri: " + P);
+// console.log("Kvadratning Yuzi: " + S);
+
+//4. misol
+// let a = Math.floor(prompt("to'g'ri to'rtburchakli parallelopedni a tomonini kiriting: "));
+// let b = Math.floor(prompt("to'g'ri to'rtburchakli parallelopedni b tomonini kiriting: "));
+// let c = Math.floor(prompt("to'g'ri to'rtburchakli parallelopedni c tomonini kiriting: "));
+// let V = a * b * c;
+// console.log("To'g'ri to'rtburchakli parallelopedning hajmi: " + V);
+
+
+//5. misol
+// let a = Math.floor(prompt("to'g'ri to'rtburchakli parallelopedni a tomonini kiriting: "));
+// let b = Math.floor(prompt("to'g'ri to'rtburchakli parallelopedni b tomonini kiriting: "));
+// let c = Math.floor(prompt("to'g'ri to'rtburchakli parallelopedni c tomonini kiriting: "));
+// let S = 2 * (a*b + b*c + c*a);
+// console.log("Parallelopedning tola yuzi: " + S);
+
