@@ -1,52 +1,51 @@
-// 1 .
-//let radius = Math.floor(prompt('radiusni kiriting: '));
-// const pi = 3.14
-// const l = ('doiraning uzunligi ' + 2 * pi * radius);
-// console.log(l)
+// Uyga vazifa 
 
-//2.
+//1. misol
 // let a = Math.floor(prompt('a sonni kiriting: '));
 // let b = Math.floor(prompt('b sonni kiriting: '));
-// let g = Math.sqrt(a * b);
-// console.log('sonlarining orta geometrigi: ' + g);
+// let peremetri = 2 * (a+b);
+// let S = a * b;
+// console.log(`Perimetri: ${peremetri}`);
+// console.log("Yuzi :" + S);
 
-//3.
-// let x = Math.floor(prompt('x sonni kiriting: '));
-// let y = 3 * (x ** 6) - 6 * (x ** 2) - 7;
-// console.log('natija: ' + y);
+//2. misol
+// let diametr = Math.floor(prompt('aylananing diametrini kiriting: '));
+// const pi = 3.14;
+// let L =  pi * diametr;
+// let r = diametr / 2;
+// let S =  pi * (r**2);
+// console.log("Aylananing uzunligi: " + L);
+// console.log("Aylananing Yuzi: " + S);
 
-//4.
-// let x = Math.floor(prompt('x sonni kiriting: '));
+//3. misol 
+// let a = Math.floor(prompt('Kubning yon tomonini kiriting: '));
+// let V = a**3;
+// let S = 6 * (a**2);
+// console.log("Kubning hajmi: " + V);
+// console.log("Kubning yuzi: " + S);
 
+//4. misol
+// let a = Math.floor(prompt('paralippedning a tomonini kiriting: '));
+// let b = Math.floor(prompt('Kubning b tomonini kiriting: '));
+// let c = Math.floor(prompt('Kubning c tomonini kiriting: '));
+// let V = (a * b * c) / 6;
+// let S = 2 * (a * b + b * c + c * a);
+// console.log("Paralipipedning hajmi: " + V);
+// console.log("Paralipipedning yuzi: " + S);
 
-//5.
-// let A =  Math.floor(prompt('A sonni kiriting: '));
-// let B =  Math.floor(prompt('B sonni kiriting: '));
-// A = B 
-// B = A 
-// console.log(A);
-// console.log(B);
+//5. misol
+// let a = Math.floor(prompt('a sonni kiriting: '));
+// let b = Math.floor(prompt('b sonni kiriting: '));
+// let ortaArifmetigi = (a+b) / 2;
+// console.log("o'rta arifmetigi: " + ortaArifmetigi);
 
-//6.
-// let ikkiXonaliSon =  Math.floor(prompt('ikki xonali sonni kiriting: '));
-// let onlarXonasi = (ikkiXonaliSon / 10);
-// let birlarXonasiSon = (ikkiXonaliSon % 10);
-// let yigindi = (onlarXonasi + birlarXonasiSon);
-// console.log(onlarXonasi);
-// console.log(birlarXonasiSon);
-// console.log(yigindi);
-
-
-
-
-// Uyga vazifa 
 //6. misol
 // let a = Math.floor(prompt('a sonni kiriting: '));
 // let b = Math.floor(prompt('b sonni kiriting: '));
-// let c = Math.sqrt((a**2) + (b**2));
+// let c = Math.sqrt(a**2 + b**2);
 // let p = a+b+c;
-// console.log(c);
-// console.log(p);
+// console.log("gipotenuzasi: " + c);
+// console.log("peremetri: " + p);
 
 
 //7. misol
@@ -110,11 +109,23 @@
 // console.log(Tc);
 
 //14. misol
-// let a =  Math.floor(prompt('a sonni kiriting: '));
+// let X =  Math.floor(prompt('X shokalad kilogramini kiriting: '));
+// let A = Math.floor(prompt('A shokalad narxini kiriting: '));
+// let Y = Math.floor(prompt('Y konfet kilogramini kiriting: '));
+// let B = Math.floor(prompt('Y konfet narxini kiriting: '));
+// let shokoladNarxi = A / X; // 1 kg shokolad narxi
+// let konfetNarxi = B / Y; // 1 kg konfet narxi
+// const farq = shokoladNarxi - konfetNarxi;
+// console.log(`1 kg shokolad 1 kg konfetdan ${farq.toFixed(2)} so'm qimmatroq.`);
+
 
 //15. misol
-
-
+// let X =  Math.floor(prompt('X olmani kilogramini kiriting: '));
+// let A = Math.floor(prompt('A olmani narxini kiriting: '));
+// let Y = Math.floor(prompt('Y olmani kilogramini kiriting: '));
+// let B = Math.floor(prompt('Y olmani narxini kiriting: '));
+// let jamiSavdo = (X * A) + (Y * B);
+// console.log(`Abdulaziz jami ${jamiSavdo} so'm sarfladi.`);
 
 
 //16. misol
@@ -162,27 +173,24 @@
 // let minglik = Math.floor(number / 1000);
 // console.log("Mingliklar xonasidagi raqam: " + minglik);
 
+
 //22. misol
-
-
-
-//23. misol
 // let soniya = Math.floor(prompt('soniyani kiriting: '));
 // let tolaMinut = Math.floor(soniya / 60);
 // console.log("Kun boshidan boshlab to'la o'tgan minutlar: " + tolaMinut);
 
-//24. misol
+//23. misol
 // let soniya = Math.floor(prompt('soniyani kiriting: '));
 // let tolaSoat = Math.floor(soniya / 3600);
 // console.log(tolaSoat);
 
-//25. misol
+//24. misol
 // let soniya = Math.floor(prompt('soniyani kiriting: '));
 // let minut = Math.floor(soniya / 60);
 // let sekund = Math.floor(soniya % 60);
 // console.log(`Kun boshidan ${soniya} sekund o'tgach, ${minut} minut va ${sekund} sekund o'tdi.`);
 
-//26. misol 
+//25. misol 
 // let soniya = Math.floor(prompt('soniyani kiriting: '));
 // let soat = Math.floor(soniya / 3600);
 // let sekund = Math.floor(soniya % 3600);
